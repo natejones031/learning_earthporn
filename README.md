@@ -16,3 +16,6 @@ Software needed:
 
 Other things needed:
 - github account
+
+Task List:
+https://docs.google.com/spreadsheets/d/14CPDZVncub-R7mcdYogAjtA_zaAI3DyVhaSy8ZzBzxg/edit#gid=1484079808
