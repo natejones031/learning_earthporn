@@ -9,6 +9,7 @@ Software needed:
   - matplotlib
   - opencv
   - sciket-learn
+  - praw (https://praw.readthedocs.io/en/latest/getting_started/quick_start.html)
 - python IDE (spyder or pycharm works well)
 - Git
   - Git UI is recommended (Gitkraken is a good one)
