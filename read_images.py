@@ -1,5 +1,6 @@
 import os
 import praw
+import getpass
 
 
 def download_images_from_subreddit(subreddit, number_images, save_path):
@@ -49,8 +50,7 @@ def save_images_to_dropbox():
 
 
 def main():
-    # NOTE replace this with the file that has the reddit client secret.
-    user = "natej"
+    user = getpass.getuser()
     secret_file_path = os.path.join("C:\\", "users", user, "Documents", "reddit_app_pass.txt")
 
     subreddit = get_subreddit_instance("earthporn", secret_file_path)
