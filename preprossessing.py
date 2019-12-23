@@ -1,7 +1,7 @@
 import cv2 as cv
 
 
-def prepocesses_image(image):
+def preprossess_image(image):
     """
     # Note: the input image but be in BGR format (follows opencv conventions).
 

@@ -5,7 +5,7 @@ import requests
 import cv2 as cv
 import praw
 
-from proprossesing import prepocesses_image
+from preprossessing import preprossess_image
 
 
 def download_images_from_subreddit(subreddit, number_images, save_path):
@@ -78,7 +78,7 @@ def main():
     test_image_path = os.path.join(image_save_path, files[0])
 
     image      = cv.imread(test_image_path)
-    post_image = prepocesses_image(image)
+    post_image = preprossess_image(image)
 
     cv.imshow("pre test", image)
     cv.imshow("post test", post_image)
